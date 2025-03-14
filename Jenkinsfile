@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './new'
+                sh './this-binary-does-not-exist'
             }
         }
         stage('Deploy') {
